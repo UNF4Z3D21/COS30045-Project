@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<meta charset="utf-8">
+<meta name="description"	content="Data Visualisation Final Assignment"/>
+<meta name="keywords"	  content="HTML, CSS, JS, SVG"/>
+<meta name="author"			  content="Ahmed Fuzail Mohamed Imran,Sheraz Nawaz Khan"/>
+
+<link rel='stylesheet' href='style.css'>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="main.js"></script>
+
+<body>
+      <div class="container-fluid">
+          <h1 style="text-align: center;color: #ffffff;">Voices of Syria</h1>
+          <h3 style="text-align: center;color: #ffffff;">Ahmed Fuzail Mohamed Imran and Sheraz Nawaz Khan</h3>
+          <div id="slider-container">
+            <input type="range" min="2011" max="2016" value="2011" id="year-slider" />
+            <button id="play-button">Play</button>
+            <button id="pause-button">Pause</button>
+        </div>
+        
+          <div id="charts"></div>
+      </div>
+      <div id="tooltip" ></div>
+</body>

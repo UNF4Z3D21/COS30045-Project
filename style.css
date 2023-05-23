@@ -1,0 +1,92 @@
+#tooltip{  
+    position: absolute;
+    padding: 2px;
+    pointer-events: none;
+    border-radius: 4px;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.25);
+    font: 15px sans-serif;
+    color: #030303;
+    line-height: 1;
+    padding: 12px;
+    background: rgb(250, 247, 247);
+    color: rgb(19, 18, 18);
+    border-radius: 2px;
+}
+
+body {
+    background-color: #202020;
+    color: #ffffff; /* White text */
+}
+
+.container-fluid {
+    background-color: #303030;
+}
+
+h1 {
+    color: #ffffff; /* White text */
+}
+
+#slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#year-slider {
+    flex-grow: 1;
+    height: 1.5em;
+    background: #ff0000; /* This is red */
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+#year-slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+    border-radius: 50%;
+}
+
+#year-slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+    border-radius: 50%;
+}
+
+#play-button, #pause-button {
+    padding: 10px 20px;
+    border: none;
+    color: #fff; /* White text */
+    background-color: #ff0000; /* Red background */
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#play-button:hover, #pause-button:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}
+
+#play-button:active, #pause-button:active {
+    background-color: #990000; /* Even darker red on click */
+}
+
+#charts {
+    background-color: #303030;
+}
+
+#tooltip {
+    color: #ffffff; /* White text */
+    background-color: #505050;
+}
+text{
+    fill: white;
+}
